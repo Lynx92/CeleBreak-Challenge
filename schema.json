@@ -1,0 +1,85 @@
+{
+  "fields": {
+    "field-id-1": {
+      "name": "",
+      "description": "",
+      "photo_urls": ["", "", ""],
+      "location": "",
+      "gps_coordinates": {
+        "latitude": 0,
+        "longitude": 0
+      },
+      "availability": [
+        {
+          "from": 10,
+          "to": 11
+        },
+        {
+          "from": 11,
+          "to": 12
+        }
+      ]
+    }
+  },
+
+  "games": {
+    "game-id-1": {
+      "field_id": 0,
+      "location": "",
+      "start_time": 0,
+      "user_ids": []
+    }
+  },
+
+  "users": {
+    "user_id_1": {
+      "name": "",
+      "email": "",
+      "password": "",
+      "statistics": {
+        "matches": {
+          "win": 0,
+          "lose": 0
+        },
+        "goals": 0,
+        "red_cards": 0,
+        "yellow_cards": 0
+      }
+    }
+  },
+
+  "game-signups": {
+    "game-signup-id-1": {
+      "user_id": 0,
+      "game_id": 0,
+      "timestamp": 0
+    }
+  },
+
+  "reviews": {
+    "review-id-1": {
+      "game_id": 0,
+      "user_id": 0,
+      "comment": "",
+      "rate": 0,
+      "timestamp": 0
+    }
+  },
+
+  "messages": {
+    "message_id_1": {
+      "type": "notification",
+      "to": "",
+      "description": "",
+      "timestamp": 0
+    },
+
+    "message-id-2": {
+      "type": "chat",
+      "from": "",
+      "to": "",
+      "description": "",
+      "timestamp": 0
+    }
+  }
+}
